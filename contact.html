@@ -6,6 +6,7 @@
         <title>Louie's Movie Blog</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script type = "text/javascript">
             function validateForm() {
             var x = document.forms["sentMessage"]["name"].value;
@@ -53,10 +54,10 @@
                 <hr>
             </div>
         </header>
-        <section class="page-section">
+        <section class="page-section mt-5">
             <div class="container rounded" id="contact">
                 <div class="text-center">
-                    <h3 class="section-subheading text-light pt-3">Let me know what is on your mind</h3>
+                    <h3 class="section-subheading text-light pt-3 pb-3">Let me know what is on your mind</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" onsubmit="return validateForm()">
                     <div class="row align-items-stretch mb-5">
@@ -83,7 +84,7 @@
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-lg text-uppercase mb-4" id="sendMessageButton" type="submit">Send Message</button>
+                        <button class="btn btn-light btn-lg text-uppercase mb-4" id="sendMessageButton" type="submit">Send Message</button>
                     </div>
                 </form>
             </div>
