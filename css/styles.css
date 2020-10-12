@@ -23,7 +23,6 @@
   text-align: center;
   color: white;
   font-size: 50px;
-  background-image: url("../assets/img/portfolio/DTRT.png");
   background-color: rgb(75, 73, 73);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -36,7 +35,7 @@ header.contact {
   text-align: center;
   color: #fff;
   font-size: 50px;
-  background-image: url("../assets/img/portfolio/2001.jpg");
+  background-color: rgb(75, 73, 73);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
